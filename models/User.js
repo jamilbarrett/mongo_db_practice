@@ -1,6 +1,5 @@
 const { Schema, model, Types } = require('mongoose');
 const { hash, compare } = require('bcrypt');
-const { formToJSON } = require('axios');
 
 const userSchema = new Schema({
   username: {
