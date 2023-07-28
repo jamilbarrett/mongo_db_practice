@@ -9,7 +9,7 @@ const planetSchema = new Schema({
     description: String,
     likes: [
         {
-          type: Types.OdjectId,
+          type: Types.ObjectId,
           ref: 'Like'
         }
     ]
